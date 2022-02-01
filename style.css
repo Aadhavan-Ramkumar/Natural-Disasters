@@ -1,3 +1,10 @@
+button {
+    background-color: transparent;
+    float: right;
+    margin-top: -625px;
+    margin-right: 175px;
+}
+
 #Heading {
     position: fixed;
     width: 100%;
@@ -79,13 +86,12 @@ a:hover {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
-    cursor: pointer;
 }
 
 #Image {
     margin-top: 25px;
-    margin-left: 225px;
     width: 900px;
     height: auto;
     border-radius: 50px;
+    cursor: pointer;
 }

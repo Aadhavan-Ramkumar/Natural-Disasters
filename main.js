@@ -1,19 +1,24 @@
 ImageCloseUp = document.getElementById("ImageCloseUp");
+let Link;
 
-function Expand(Link1, Link2) {
-    let Link = Link1 + Link2;
+function Expand(Link1, Link2, Title) {
+    Link = Link1 + Link2;
     document.getElementById("Image").src = Link;
+    document.getElementById("Image").setAttribute("title", Title + "—Click to open in a new tab.");
     ImageCloseUp.style.display = "block";
 }
 
-function Shrink() {
+function Close() {
     ImageCloseUp.style.display = "none";
     document.getElementById("Image").src = "";
 }
 
+function Open() {
+    window.open(Link, "_blank");
+}
+
 window.addEventListener("keydown", (e) => {
-    KeyPressed = e.key;
-    if (KeyPressed == "Escape") {
-        Shrink();
+    if (e.key == "Escape") {
+        Close();
     }
 });
