@@ -1,0 +1,91 @@
+#Heading {
+    position: fixed;
+    width: 100%;
+    background-color: #555;
+    margin-top: 0px;
+    padding-top: 0.67em;
+}
+
+hr {
+    margin-bottom: 0px;
+}
+
+.Disasters {
+    margin-top: 100px;
+}
+
+.Disasters img {
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.Disasters div {
+    margin-bottom: 150px;
+}
+
+.Align1 center {
+    float: left;
+    margin-top: -50px;
+}
+
+.Align1 h3 {
+    width: 600px;
+    margin-left: 325px;
+    margin-top: 50px;
+}
+
+.Align2 center {
+    float: right;
+    margin-top: -50px;
+}
+
+.Align2 h3 {
+    width: 650px;
+    margin-right: 325px;
+    margin-top: 50px;
+}
+
+.container {
+    width: 950px;
+}
+
+#Footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #aaa;
+    color: black;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+#ImageCloseUp {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#Image {
+    margin-top: 25px;
+    margin-left: 225px;
+    width: 900px;
+    height: auto;
+    border-radius: 50px;
+}

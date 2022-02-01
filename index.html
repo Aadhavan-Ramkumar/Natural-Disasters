@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Information About Natural Disasters">
+    <meta name="author" content="Aadhavan Ramkumar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Natural Disasters </title>
+</head>
+
+<body style="background-color: gray; color: white;">
+    <center>
+        <h1 id="Heading"> Natural Disasters
+            <hr>
+        </h1>
+    </center>
+    <br><br><br>
+    <div class="container Disasters">
+        <div class="Align1">
+            <center>
+                <img class="img-responsive" src="https://bit.ly/3IQTUfb" title="Earthquakes"
+                    onclick="Expand('https:/', '/bit.ly/3IQTUfb');">
+                <h2> Earthquakes </h2>
+            </center>
+            <h3> An earthquake is the shaking in the Earth's surface caused by the movement of tectonic
+                plates. Most earthquakes can't even be felt, while some earthquakes can destroy whole communities or
+                even cities! </h3>
+        </div>
+        <div class="Align2">
+            <center>
+                <img class="img-responsive" src="https://bit.ly/3ulvVR8" title="Volcanoes"
+                    onclick="Expand('https:/', '/bit.ly/3ulvVR8')">
+                <h2> Volcanoes </h2>
+            </center>
+            <h3> A volcano is a hole in the Earth's crust that spews lava, gas, and ash. It can take many years for the
+                land affected by the eruption to recover, sometimes even thousands of years! </h3>
+        </div>
+        <div class="Align1">
+            <center>
+                <img class="img-responsive" src="https://bit.ly/3rg7UcE" title="Tsunamis" onclick="Expand('https:/', '/bit.ly/3rg7UcE')">
+                <h2> Tsunamis </h2>
+            </center>
+            <h3> A tsunami is a large wave caused by earthquakes or volcanoes underwater. Most tsunamis can go as high
+                as 30 m (100 ft) and reach speeds of up to 700 kmph (500 mph), as fast as a jet airplane! </h3>
+        </div>
+        <div class="Align2">
+            <center>
+                <img class="img-responsive" src="https://bit.ly/3udUfV6" title="Hurricanes" onclick="Expand('https:/', '/bit.ly/3udUfV6')">
+                <h2> Hurricanes </h2>
+            </center>
+            <h3> A hurricane is a large, swirling storm formed in the sea. They can reach speeds between 119 kmph (74
+                mph) to more than 252 kmph (157 mph)! The strongest ones can uproot whole trees and destroy whole
+                houses! They can last for a week or more. </h3>
+        </div>
+        <div class="Align1">
+            <center>
+                <img class="img-responsive" src="https://bit.ly/3KWJs7B" title="Tornadoes" onclick="Expand('https:/', '/bit.ly/3KWJs7B')">
+                <h2> Tornadoes </h2>
+            </center>
+            <h3> A tornado is a violent rotating column of air that can reach speeds of up to 500 kmph (300 mph). They
+                usually last for a mere few seconds to an hour. </h3>
+        </div>
+        <div class="Align2">
+            <center>
+                <img class="img-responsive" src="https://bit.ly/3Gdu97e" title="Droughts" onclick="Expand('https:/', '/bit.ly/3Gdu97e')">
+                <h2> Droughts </h2>
+            </center>
+            <h3> A drought is a period of time where little to no rain falls, making the ground very dry. They can last
+                for weeks, months, or even years! Regions like the Southwest US are places where droughts are more
+                frequent. </h3>
+        </div>
+        <div class="Align1">
+            <center>
+                <img class="img-responsive" src="https://bit.ly/3IThfgu" title="Blizzards" onclick="Expand('https:/', '/bit.ly/3IThfgu')">
+                <h2> Blizzards </h2>
+            </center>
+            <h3> A blizzard is a long-lasting snowstorm with fast winds and heavy snowfall. During this period, the
+                temperature can get well below the freezing point. Icy roads and sleet are also common. </h4>
+        </div>
+        <div class="Align2">
+            <center>
+                <img class="img-responsive" src="https://bit.ly/3rYkc8u" title="Wildfires" onclick="Expand('https:/', '/bit.ly/3rYkc8u')">
+                <h2> Wildfires </h2>
+            </center>
+            <h3> A wildfire is an uncontrollable forest fire generating in combustible vegetation. These are more common
+                in arid deserts like Australia and the Southwest US. They can last for many days, or even a month. </h4>
+        </div>
+    </div>
+    <center>
+        <div id="Footer">
+            <h4> Images found from <a href="https://unsplash.com/" target="_blank"> Unsplash. </a> Click on the images to maximize them. </h4>
+        </div>
+    </center>
+    <div id="ImageCloseUp"><img id="Image" onclick="Shrink()"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
